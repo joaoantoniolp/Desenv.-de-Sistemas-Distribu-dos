@@ -19,7 +19,7 @@ public class BitTorrent extends Thread {
     public void run() {
         System.out.println("Executando " + getName());
         try {
-            Thread.sleep(1000);
+            Thread.sleep(5000);
         } catch (Exception e) {
         }
         System.out.println("Morto");
